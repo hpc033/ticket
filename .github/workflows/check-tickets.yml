@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Monitor Tickets
-        uses: mooyou1/melon-ticket-actions@v1.1.0
+        uses: mooyoul/melon-ticket-actions@v1.1.0
         with:
           product-id: 204755      # 替换为实际演出ID
           schedule-id: 100001     # 替换为场次ID
