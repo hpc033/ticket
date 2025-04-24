@@ -13,4 +13,4 @@ jobs:
           schedule-id: 100001     # 替换为场次ID
           seat-id: 1_0           # 座位区域ID
           slack-incoming-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}  # Slack通知地址
-          message: '<@你的Slack用户ID> 票务警报！'
+          message: '有票了！！'
